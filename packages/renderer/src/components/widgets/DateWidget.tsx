@@ -12,7 +12,7 @@ const DateWidget = () => {
     });
 
     return (
-      <div class="rounded-lg w-72 h-16 p-4 widget-body">
+      <div class="rounded-lg w-72 h-16 p-4 widget-body mb-4">
           <div class="date w-fit">{() => {
             let months = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", 
             "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ]

@@ -5,7 +5,7 @@ import "./samples/electron-store";
 
 import { onMount } from "solid-js";
 import { render } from "solid-js/web";
-import { Router, createIntegration } from "solid-app-router";
+import { Router, createIntegration } from "@solidjs/router";
 import App from "./app";
 
 function bindEvent(target: EventTarget, type: string, handler: EventListener) {

@@ -1,20 +1,14 @@
 import TimeWidget from '@/components/widgets/TimeWidget';
 import DateWidget from '@/components/widgets/DateWidget';
-import {
-  DragDropProvider,
-  DragDropSensors,
-  useDragDropContext,
-  createDraggable,
-  createDroppable,
-} from "@thisbeyond/solid-dnd";
+import SideBar from './components/SideBar';
+  
+export const DnDWidgets = () => {
 
-const DnDWidgets = () => {
   return (
-    <DragDropProvider>
-        <TimeWidget />
-        <DateWidget />
-    </DragDropProvider>
-  )
-}
+    <div>
+        <SideBar />
+    </div>
+  );
+};
 
 export default DnDWidgets

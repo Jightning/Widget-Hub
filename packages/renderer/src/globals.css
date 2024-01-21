@@ -58,3 +58,8 @@
     letter-spacing: 4.8px;
     white-space: nowrap;
 }
+
+.draggable {
+    user-select: none;
+    cursor: pointer;
+}
